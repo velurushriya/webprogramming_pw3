@@ -1,0 +1,93 @@
+.img {
+    display: block;
+    margin: -78px 15%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+body {
+    background-image: url("./mill2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    background: white;
+    color: black;
+}
+
+p {
+    display: inline-block !important;
+    margin: 4px 0px !important;
+    border-right: 10px solid #00A4CCFF;
+    padding: 10px;
+    background: #FC766AFF;
+}
+
+p:hover {
+    background: #00A4CCFF;
+    border-right: 10px solid #FC766AFF;
+    color: black;
+    cursor: pointer;
+}
+
+.p1 {
+    width: 92px;
+}
+
+.p2 {
+    width: 92px;
+}
+
+.p3 {
+    width: 92px;
+}
+
+.table-or {
+    margin-left: 520px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 395px;
+    background: #FC766AFF;
+    color: #00A4CCFF;
+    text-align: center;
+}
+
+h1:hover {
+    background: #00A4CCFF;
+    color: #FC766AFF;
+    cursor: pointer;
+}
+
+.row {
+    margin-left: 520px !important;
+}
+
+.utButtons {
+    margin-left: 650px;
+    margin-top: 30px;
+}
+
+.utButtons>button {
+    padding: 8px;
+    color: #FC766AFF;
+    background: #00A4CCFF;
+    border: 2px solid #FC766AFF;
+    cursor: pointer;
+
+}
+
+.utButtons>button:hover {
+    color: #00A4CCFF;
+    background: #FC766AFF;
+    border: 2px solid #00A4CCFF;
+}

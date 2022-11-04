@@ -1,0 +1,84 @@
+body {
+    background: #00A4CCFF;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img1 {
+    width: 125px;
+    height: 126px;
+    display: block;
+    margin: auto;
+}
+
+.img2 {
+    display: block;
+    margin: auto;
+    height: 342px;
+    width: 365px;
+}
+
+.img3 {
+    position: absolute;
+    top: 121px;
+    right: 323px;
+    width: 124px;
+    height: 127px;
+}
+
+.img4 {
+    position: absolute;
+    top: 520px;
+    right: 840px;
+    width: 124px;
+    height: 127px;
+}
+
+.txt {
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    background-color: #FC766AFF;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.txt:hover {
+    cursor: pointer;
+    color: #00A4CCFF;
+}
+
+.log-out {
+    position: absolute;
+    right: 98px;
+    top: 188px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #FC766AFF;
+    color: white;
+    border: 2px solid #FC766AFF;
+}
+
+button:hover {
+    background-color: #FC766AFF;
+    color: #00A4CCFF;
+    transition: 0.5s;
+    border: 2px solid #00A4CCFF;
+}
+
+.lost {
+    padding: 14px;
+    background-color: red;
+    display: inline-block;
+}

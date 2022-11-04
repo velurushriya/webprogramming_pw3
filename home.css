@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    position: relative;
+    background: #00A4CCFF;
+    color: white !important;
+    overflow: hidden;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0px auto;
+}
+
+.rl-spl {
+    padding: 3px;
+    text-align: right;
+}
+
+.sec-4 {
+    background-image: url("./mill.jpg");
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+}
+
+.rules,
+.rule {
+    margin: 5px;
+}
+
+.rules {
+    margin: 0px auto;
+    text-align: left;
+    width: 500px;
+}
+
+.button {
+    background-color: #5B84B1FF;
+    border: none;
+    color: #FC766AFF;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.log-out {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    padding: 14px 16px;
+}
+
+.button1 {
+    background-color: #FC766AFF;
+    color: black;
+    border: 2px solid #5B84B1FF;
+}
+
+.button1:hover {
+    background-color: #5B84B1FF;
+    color: #FC766AFF;
+}
+
+h1,
+h3 {
+    color: white;
+}
+
+.btn-2 {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    padding: 8px 16px;
+}
+
+.btn-3 {
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    padding: 8px 16px;
+}
+
+.no-mrgn {
+    margin: 0px;
+    padding: 0px;
+}

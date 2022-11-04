@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Monospace";
+    text-align: center;
+    color: #FC766AFF;
+}
+
+h2 {
+    font-family: "Monospace";
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+
+html,
+body {
+    background: #00A4CCFF;
+    background-image: url("mill2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FC766AFF;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    font-size: 32px;
+    color: white !important;
+    background: #00A4CCFF;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    animation: animateHeart 1.2s infinite;
+}
+
+.sp {
+    background: #00A4CCFF;
+}
+
+@keyframes animateHeart {
+    0% {
+        transform: scale(0.8);
+    }
+
+    5% {
+        transform: scale(0.9);
+    }
+
+    10% {
+        transform: scale(0.8);
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    background-color: #FC766AFF;
+    color: #00A4CCFF;
+    transition: 0.5s;
+}
+
+
+select {
+    background-color: #00A4CCFF;
+    color: white;
+    border: 2px solid #FC766AFF;
+}
+
+button {
+    background-color: #00A4CCFF;
+    color: white;
+    border: 2px solid #FC766AFF;
+}
+
+button:hover {
+    background-color: #FC766AFF;
+    color: #00A4CCFF;
+    transition: 0.5s;
+}
+
+.submit {
+    background-color: #00A4CCFF;
+    color: white;
+    border: 2px solid #FC766AFF;
+}
+
+.submit {
+    background-color: #00A4CCFF;
+    color: white;
+    border: 2px solid #FC766AFF;
+}
+
+.submit:hover {
+    background-color: #FC766AFF !important;
+    color: #00A4CCFF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #FC766AFF !important;
+    color: #00A4CCFF;
+    transition: 0.5s;
+    border-color: #00A4CCFF;
+    cursor: pointer;
+}
+
+select,
+option {
+    padding: 14px;
+    border: 2px solid #FC766AFF;
+}
+
+input {
+    font-size: 18px;
+    padding: 11px;
+}
+
+table,
+td,
+th {
+    border: 2px solid #FC766AFF !important;
+    font-size: 22px;
+}
+
+td:hover {
+    background-color: #00A4CCFF;
+    cursor: pointer;
+}
+
+.correct {
+    background: #00A4CCFF;
+    padding: 14px;
+    text-align: center;
+}
+
+.head {
+    background: #00A4CCFF;
+    padding: 25px;
+    margin: 0px;
+}
+
+.txt {
+    color: white;
+}
+
+.log-out {
+    position: absolute;
+    right: 98px;
+    top: 188px;
+    padding: 10px;
+    cursor: pointer;
+}
